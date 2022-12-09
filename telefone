@@ -1,0 +1,44 @@
+"""
+Created on Thu Dec  8 15:11:43 2022
+
+@author: Bruno
+"""
+
+print("#"* 30)
+
+print("BEM VINDO AO TELEFONE !!! \n          ☎ ")
+
+print("#"*30)
+
+senha = int (input("Crie uma senha: "))
+conf = int(input("Confirme sua senha: "))
+
+print("#"*30 )
+
+while senha != conf:
+    print("Senhas não conferem!")
+    print("Tente novamente! \n      ♻")
+    break
+    
+conf = int(input('Confirme sua senha: '))
+print('Senha cadastrada ! \n .      🌎')
+
+print("#"*30)
+
+
+for f in range(3):
+    
+    conf2 = int(input("Digite sua senha: "))
+    
+    print("#"*30)
+    
+    if conf == senha:
+     print("Acesso permitido!")
+     print("Seja bem-vindo! \n       🍷🗿")
+     break
+    else:
+        print("Acesso negado!")
+        print("Tente novamente! \n    ♻")
+     
+
+
